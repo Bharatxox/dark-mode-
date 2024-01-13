@@ -1,0 +1,39 @@
+body{
+    transition:  0.5s ease;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.button{
+    margin-top: 25px;
+    display: flex;
+    background: linear-gradient(#77C2D0, #3D91A7);
+    width: 150px;
+    /* justify-content: flex-start; */
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+    height: 50px;
+}
+img{
+    height: 50px;
+    position: absolute;
+    left: 0;
+    transition:  0.5s ease;
+}
+.night{
+    background: linear-gradient(#041326, #0E314C);
+}
+.sunBackground{
+    background: linear-gradient(#77C2D0, #3D91A7);
+}
+.dark-mode {
+    color: white;
+    background-color: black;
+}
